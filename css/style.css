@@ -12,6 +12,14 @@
     margin: 0px auto;
     padding: 0 2%;
 }
+.w50{
+    width: 50%;
+    float: left;
+    padding: 0 2%;
+}
+.center{
+    text-align: center;
+}
 
 .clear{
     clear: both;
@@ -119,6 +127,7 @@ section.main-bg p{
     font-size: 15px;
 }
 .box-icone-single h2{
+    cursor: pointer;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 50px ;
@@ -130,7 +139,7 @@ section.main-bg p{
 section.sobre-equipe{
     height: 100%;
     padding: 30px;
-    background-color: rgb(165, 131, 170);
+    background-color: rgb(117, 43, 190);
 
 }
 section.sobre-equipe > .container{
@@ -141,6 +150,7 @@ section.sobre-equipe > .container{
     width: 50%;
 }
 .sobre-container{
+
     width: 50%;
 }
 .sobre-container p{
@@ -165,14 +175,74 @@ section.sobre-equipe > .container{
     font-style: italic;  
 }
 .descricao-avatar h3{
+    cursor: pointer;
     padding-bottom: 10px;
     font-weight: normal;
     font-style: italic;
 }
+.descricao-avatar h3:hover{
+    font-weight: bolder;
+}
 .equipe-container p{
     font-size: 15px;
 }
+section.inscricao{
+    padding: 20px;
+    background-color: rgb(68, 14, 122)
+}
+h2.inscricao-texto{
+    font-weight: lighter;
+    font-style: italic;  
+}
+.inscricao-form input[type=text]{
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    display:inline-block;
+}
+.inscricao-form input[type=submit]{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(117, 43, 190);
+    cursor: pointer;
+    border: 1px solid black;
+    font-weight: normal;
+}
+.card-single h3{
+    font-weight: lighter;
+    cursor: pointer;
+    
+}
+.card-single h3:hover{
+    font-weight: bolder;
+}
+section.cards{
+    padding: 40px 0;
+    background-color: rgb(117, 43, 190);
+}
+.card-single{
+    width: 33.3%;
+    float: left;
+    padding-right: 30px;
+    font-weight: normal;
+    font-style: italic;  
+
+}
+.card-single img{
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid black;
+}
+
 @media screen and (max-width: 768px){
+    .card-single{
+        width: 100%;
+    }
+    .w50{
+        width: 100%;
+        margin-bottom: 20px;
+    }
     .box-icone-single{
         width: 100%;
     }
