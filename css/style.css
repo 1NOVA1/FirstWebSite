@@ -17,6 +17,10 @@
     float: left;
     padding: 0 2%;
 }
+.w33{
+    float: left;
+    width: 33.3%;
+}
 .center{
     text-align: center;
 }
@@ -234,12 +238,38 @@ section.cards{
     width: 100%;
     border: 1px solid black;
 }
+footer.footer1{
+    background-color: rgb(88, 29, 146);
+    font-weight: normal;
+    font-style: italic;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer.footer2{
+    font-weight: lighter;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(68, 14, 122);
 
+}
+footer.footer1 h2{
+    font-weight: lighter;
+}
+footer.footer1 p{
+    margin-top: 8px;
+}
+footer.footer1 a{
+    display: block;
+}
 @media screen and (max-width: 768px){
+    footer.footer1{
+        text-align: center;
+    }
     .card-single{
         width: 100%;
+        padding-right: 0px;
     }
-    .w50{
+    .w50, .w33{
         width: 100%;
         margin-bottom: 20px;
     }
